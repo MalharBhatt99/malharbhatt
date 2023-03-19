@@ -1,0 +1,34 @@
+body{
+    background: linear-gradient(to top right, white 50%, darkseagreen  50%);
+    }
+hr{ 
+    width : 11%;
+    border-style: dotted;
+    border-width: 10px;
+    border-top: 0px;
+    border-color :seagreen;
+    overflow: visible;
+    text-align: center;
+    color: darkgreen;
+    content: 'Hi!';
+    position: relative;
+    top:-13px;
+
+}
+li:hover{
+    background: linear-gradient(to top right,darkseagreen 75%, orange 10%);
+    border-radius: 50%;
+    font-size: large;
+    
+}
+.submit:hover{
+    background:linear-gradient(to top right , darkseagreen 50%,orange 50%);
+    font-size: large;
+    border-radius: 100%;
+}
+
+.tick:hover{
+    background:linear-gradient(to top right , darkseagreen 50%,orange 50%);
+    border-radius: 100%;
+    font-size: large;
+}
